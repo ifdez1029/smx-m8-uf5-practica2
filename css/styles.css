@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(219, 255, 166);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h3 {
+    font-size: 15px;
+    color: orange;
+    background-color: forestgreen;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-top: 30px;
+}
+
+/* Espacio abajo si soy la fuente de datos */
+h3.d-font{
+    margin: 0px 0px 50px 0px;
+}
+
+/* Vuelta al home-page después de la fuente
+de datos */
+h3 + h5 {
+    border: 2mm solid forestgreen;
+    background-color: greenyellow;
+    width: 175px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    color: orangered;
+    border: 3mm dashed forestgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 10px 30px 10px;
+    text-align: center;
+    text-decoration: underline green 2px;
+}
+
+/* Cambio de margen superior al título de las recetas */
+h1.receta-ti {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+/* Imagen principal de la receta*/
+.img-title {
+    padding-bottom: 0px; 
+    margin-left: 10px;
+    border-right: 3mm dashed forestgreen;
+    border-left: 3mm dashed forestgreen;
+    border-bottom: 3mm dashed forestgreen;
+}
+
+/* Tabla para la imagen principal y la info
+de la receta */
+.container-title {
+    display:  grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 0px;
+}
+
+/* Información de la recet al lado de la imagen */
+li.recipe-d {
+    list-style-type: square;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Aplica al contenido de la lista de ingredientes */
+ul li {
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-decoration: underline dashed orange 2px;
+}
+
+/* Aplica a los números de la lista de pasos a seguir */
+ol li {
+    margin-left: 100px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    color: forestgreen;
+}
+
+/* Aplica a los párrafos precedidos por un número de lista suelto */
+li + p {
+    font-size: 19px;
+    text-align: justify;
+}
+
+/* Aplica a los párrafos precedidos de una imagen */
+p.a-img {
+    font-size: 19px;
+    text-align: justify;
+    margin-bottom: 75px;
+}
+
+/* Aplica el formato a las imagenes seguidas de un número de lista
+ suelto */
+li + img {
+    align-items: center;
+    margin-top: 25px;
+    height: 200px;
+    border: solid 5px forestgreen;
+}
+
+/* Formato para cada enlace de los índices */
+.entrada-index {
+    font-size: 20x;
+    font-weight: bold;
+    text-align: center;
+    border: 2mm solid yellow;
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+}
